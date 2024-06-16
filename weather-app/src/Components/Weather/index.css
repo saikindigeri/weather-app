@@ -1,0 +1,70 @@
+/* src/components/Weather.css */
+.weather-container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .weather-container.light {
+    background-color: rgb(176, 150, 150);
+    color: black;
+  }
+  
+  .weather-container.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  /* src/components/Toggle.css */
+  .toggle {
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .toggle.light {
+    background-color: black;
+    color: rgb(187, 173, 173);
+  }
+  
+  .toggle.dark {
+    background-color: white;
+    color: black;
+  }
+  
+.input{
+  margin-right: 10px;
+  height: 20px;
+}
+  
+.button{
+  height: 24px;
+
+  font-family: "Roboto";
+  cursor: pointer;
+  
+}
+
+.button:hover{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+
+
+.city{
+  font-size: 28px;
+  margin-right: 10px;
+}
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+  }
+  
+  .sub-heading{
+    font-family: "Arial";
+    font-size: 20px;
+  }
